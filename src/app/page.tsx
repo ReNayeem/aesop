@@ -143,6 +143,12 @@ const page = () => {
         </div>
       </div>
       {/* third section end  */}
+
+      {/* fourth section start  */}
+      <div className='fourth-section d-flex flex-column align-items-center justify-content-center'>
+        <h1>‘Life never becomes a habit to me. It's always a marvel.’</h1>
+        <p>Katherine Mansfield</p>
+      </div>
     </div>
   );
 };
