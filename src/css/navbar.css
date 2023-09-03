@@ -60,7 +60,7 @@
 .navbar {
     min-height: 80px;
     padding: 1.25rem 1.8rem;
-    font-size: calc(10px + .3vw);
+    font-size: calc(9px + .3vw);
 }
 
 #navbar {
@@ -98,6 +98,10 @@
 }
 
 .nav-link-13 {
+    display: none;
+}
+
+.nav-link-17 {
     display: none;
 }
 
@@ -144,6 +148,10 @@
 
     .nav-burger-2 {
         display: none;
+    }
+
+    .nav-link-17 {
+        display: block;
     }
 }
 
