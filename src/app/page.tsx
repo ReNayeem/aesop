@@ -98,15 +98,37 @@ const page = () => {
 
       {/* second section start  */}
       <div className='second-section'>
-        <div>
+        <div className='d-flex second-section-2'>
           <div className='second-first-section'>
-            <p>For the body</p>
-            <h2>An expression of care</h2>
-            <h3>Aesop formulations offer the body deserving care, to cleanse, replenish, and nourish skin. Each product is a sensory pleasure to use with its own delightful aroma.</h3>
-            <button>See all Body Care<svg aria-labelledby="rightArrow-2765" className="Icon_base__GKZ58 Icon_dark__IcVZw" data-testid="data-testid-Icon" focusable="false" height="12" role="img" viewBox="0 0 50 50" width="12"><title id="rightArrow-2765">rightArrow</title><g><path d="M30.1,5.3L50,25.1L30.1,45h-6.6l18-17.6H0v-4.8h41.5l-18-17.6h6.6V5.3z"></path></g></svg></button>
+            <div className='second-first-first-section-1'>
+              <p>For the body</p>
+              <h2>An expression of care</h2>
+            </div>
+            <div className='second-first-first-section-2'>
+              <h3>Aesop formulations offer the body deserving care, to cleanse, replenish, and nourish skin. Each product is a sensory pleasure to use with its own delightful aroma.</h3>
+              <button>See all Body Care<svg aria-labelledby="rightArrow-2765" className="Icon_base__GKZ58 Icon_dark__IcVZw" data-testid="data-testid-Icon" focusable="false" height="12" role="img" viewBox="0 0 50 50" width="12"><title id="rightArrow-2765">rightArrow</title><g><path d="M30.1,5.3L50,25.1L30.1,45h-6.6l18-17.6H0v-4.8h41.5l-18-17.6h6.6V5.3z"></path></g></svg></button>
+            </div>
+          </div>
+          <div className='d-flex second-second-section-products'>
+            <div className='second-second-section'>
+              <div className='second-second-section-img second-second-section-img-1'></div>
+              <p>Nurture Bar Soap</p>
+              <h6>Offers a mild yet effective cleanse</h6>
+            </div>
+            <div className='second-second-section'>
+              <div className='second-second-section-img second-second-section-img-2'></div>
+              <p>Polish Bar Soap</p>
+              <h6>Thoroughly cleanses and exfoliates skin</h6>
+            </div>
+            <div className='second-second-section'>
+              <div className='second-second-section-img second-second-section-img-3'></div>
+              <p>Refresh Bar Soap</p>
+              <h6>Offers a thorough and enlivening cleanse</h6>
+            </div>
           </div>
         </div>
       </div>
+      {/* second section done  */}
     </div>
   );
 };

@@ -79,15 +79,16 @@
 }
 
 .second-section {
-    height: 660px;
+    height: 810px;
     background-color: #fffef2;
     padding-top: 150px;
 }
 
 .second-first-section {
     margin-left: 80px;
-    max-width: 406px;
+    max-width: 463px;
     width: 100%;
+    min-width: 405px;
 }
 
 .second-first-section p {
@@ -123,9 +124,129 @@
     fill: #333;
 }
 
+.second-second-section {
+    margin-left: 90px;
+    margin-top: 140px;
+    cursor: pointer;
+}
+
+.second-second-section p {
+    color: #333;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.7;
+    text-align: center;
+    margin-top: .6rem;
+}
+
+.second-second-section:hover p {
+    text-decoration: underline;
+}
+
+.second-second-section h6 {
+    font-size: .875rem;
+    color: #333;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.second-second-section-img {
+    height: 286px;
+    width: 280px;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+
+}
+
+.second-second-section-img-1 {
+    background-image: url("https://i.ibb.co/FsdGzcP/Screenshot-2023-09-03-at-17-39-30-Nurture-Bar-Soap-Aesop-Hong-Kong-SAR.png");
+}
+
+.second-second-section-img-2 {
+    background-image: url("https://i.ibb.co/2SbWYTS/Screenshot-2023-09-03-at-18-01-10-Polish-Bar-Soap-Aesop-Hong-Kong-SAR.png");
+}
+
+.second-second-section-img-3 {
+    background-image: url("https://i.ibb.co/r0RXWbH/Screenshot-2023-09-03-at-18-04-05-Refresh-Bar-Soap-Aesop-Hong-Kong-SAR.png");
+}
+
+.second-second-section-products {
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+.second-section-2 {
+    overflow-x: scroll;
+}
+
+
+/* custom firefox scrollbar start */
+html {
+    scrollbar-width: normal;
+    scrollbar-color: #51514d #cccbc2;
+}
+
+/* custom firefox scrollbar end */
+
+/* custom scrollbar for other browser start */
+html::-webkit-scrollbar {
+    width: 1vw;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #51514d;
+}
+
+
+html::-webkit-scrollbar-track {
+    background-color: #cccbc2;
+}
+
+/* custom scrollbar for other browser end */
+
 @media only screen and (max-width: 1160px) {
     .banner-details {
         margin-left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .second-section-2 {
+        flex-direction: column;
+        overflow-x: unset;
+    }
+
+    .second-first-section {
+        display: flex;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .second-first-first-section-1 {
+        width: 50%;
+    }
+
+    .second-first-first-section-2 {
+        max-width: 50%;
+        padding-right: 100px;
+    }
+
+    .second-second-section-products {
+        overflow-x: scroll;
+        padding-right: 100px;
+    }
+
+    .second-section {
+        height: auto;
+        background-color: #fffef2;
+        padding-top: 150px;
     }
 }
 
@@ -200,4 +321,23 @@
         transition: all .2s cubic-bezier(.645, .045, .355, 1);
     }
 
+    .second-first-section {
+        flex-direction: column;
+    }
+
+    .second-first-first-section-1 {
+        width: 100%;
+        margin-left: -55px;
+        padding-right: 10px;
+    }
+
+    .second-first-first-section-2 {
+        max-width: 100%;
+        padding-right: 10px;
+        margin-left: -55px;
+    }
+
+    .second-second-section {
+        margin-top: 100px;
+    }
 }
