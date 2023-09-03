@@ -78,6 +78,51 @@
     display: none;
 }
 
+.second-section {
+    height: 660px;
+    background-color: #fffef2;
+    padding-top: 150px;
+}
+
+.second-first-section {
+    margin-left: 80px;
+    max-width: 406px;
+    width: 100%;
+}
+
+.second-first-section p {
+    font-size: .875rem;
+    line-height: 1.7;
+}
+
+.second-first-section h2 {
+    font-size: 1.875rem;
+    line-height: 1.33;
+    font-weight: 400;
+}
+
+.second-first-section h3 {
+    margin-top: 1rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.second-first-section button {
+    background-color: transparent;
+    font-size: .875rem;
+    line-height: 1.4;
+    color: #333;
+    border: none;
+    margin-top: 2rem;
+    font-weight: 400;
+}
+
+.second-first-section button svg {
+    margin-left: 5px;
+    fill: #333;
+}
+
 @media only screen and (max-width: 1160px) {
     .banner-details {
         margin-left: 4rem;
