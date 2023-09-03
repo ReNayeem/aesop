@@ -149,6 +149,7 @@ const page = () => {
         <h1>‘Life never becomes a habit to me. It's always a marvel.’</h1>
         <p>Katherine Mansfield</p>
       </div>
+      {/* fourth section done  */}
     </div>
   );
 };
