@@ -83,6 +83,15 @@ const page = () => {
             <button>Discover Bar Soaps <span><svg aria-labelledby="rightArrow-4528" className="Icon_base__GKZ58 Icon_light__1TZsq" data-testid="data-testid-Icon" focusable="false" height="12" role="img" viewBox="0 0 50 50" width="12"><title id="rightArrow-4528">rightArrow</title><g><path d="M30.1,5.3L50,25.1L30.1,45h-6.6l18-17.6H0v-4.8h41.5l-18-17.6h6.6V5.3z"></path></g></svg></span></button>
           </div>
         </div>
+
+        <div>
+          <div className='banner-details-2'>
+            <p>Bar Soaps</p>
+            <h2>A body care classic, reimagined</h2>
+            <h3>Breathing new life into the humble bar soap are Nurture, Polish and Refresh—three additions to the range, each imparting a unique constellation of benefits.</h3>
+            <button>Discover Bar Soaps <span><svg aria-labelledby="rightArrow-4528" className="Icon_base__GKZ58 Icon_light__1TZsq" data-testid="data-testid-Icon" focusable="false" height="12" role="img" viewBox="0 0 50 50" width="12"><title id="rightArrow-4528">rightArrow</title><g><path d="M30.1,5.3L50,25.1L30.1,45h-6.6l18-17.6H0v-4.8h41.5l-18-17.6h6.6V5.3z"></path></g></svg></span></button>
+          </div>
+        </div>
       </div>
     </div>
   );

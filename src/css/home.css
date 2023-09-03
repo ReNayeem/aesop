@@ -73,3 +73,86 @@
     fill: #333;
     transition: all .2s cubic-bezier(.645, .045, .355, 1);
 }
+
+.banner-details-2 {
+    display: none;
+}
+
+@media only screen and (max-width: 1160px) {
+    .banner-details {
+        margin-left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .banner-details {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .banner-details {
+        display: none;
+    }
+
+    .banner-logo {
+        display: none;
+    }
+
+    .banner-details-2 {
+        display: block;
+        min-height: 330px;
+        padding: 3rem 1.3rem;
+        background-color: #333333;
+        color: #fffef2;
+    }
+
+    .banner-details-2 p {
+        font-size: .875rem;
+        line-height: 1.7;
+    }
+
+    .banner-details-2 h2 {
+        font-size: 1.5rem;
+        line-height: 1.33;
+        font-weight: 400;
+    }
+
+    .banner-details-2 h3 {
+        font-size: 1rem;
+        margin-top: 1rem;
+        line-height: 1.7;
+        font-weight: 400;
+    }
+
+    .banner-details-2 button {
+        background-color: transparent;
+        max-width: 598px;
+        width: 100%;
+        height: 60px;
+        text-align: left;
+        font-size: .875rem;
+        display: flex;
+        justify-content: space-between;
+        line-height: 1.4;
+        color: #fffef2;
+        padding: 19px 23px;
+        transition: all .2s cubic-bezier(.645, .045, .355, 1);
+        border: 1px solid #fffef2;
+        margin-top: 1.6rem;
+    }
+
+    .banner-details-2 button svg {
+        fill: #fffef2;
+        transition: all .2s cubic-bezier(.645, .045, .355, 1);
+    }
+
+    .banner-details-2 button:hover,
+    .banner-details-2 button:hover svg {
+        background-color: #fffef2;
+        color: #333;
+        fill: #333;
+        transition: all .2s cubic-bezier(.645, .045, .355, 1);
+    }
+
+}
