@@ -129,6 +129,20 @@ const page = () => {
         </div>
       </div>
       {/* second section done  */}
+
+      {/* third section start  */}
+      <div className='third-section'>
+        <div className='d-flex third-section-2'>
+          <div className='third-first-section'>
+            <p>The Athenaeum</p>
+            <h2>The warp-up</h2>
+            <h3>In The Athenaeum, our digital reading room: a guide to ensuring a healthy complexion through the warmer months.</h3>
+            <button>Read more<span><svg aria-labelledby="rightArrow-4528" className="Icon_base__GKZ58 Icon_light__1TZsq" data-testid="data-testid-Icon" focusable="false" height="12" role="img" viewBox="0 0 50 50" width="12"><title id="rightArrow-4528">rightArrow</title><g><path d="M30.1,5.3L50,25.1L30.1,45h-6.6l18-17.6H0v-4.8h41.5l-18-17.6h6.6V5.3z"></path></g></svg></span></button>
+          </div>
+          <div className='third-section-img'></div>
+        </div>
+      </div>
+      {/* third section end  */}
     </div>
   );
 };
