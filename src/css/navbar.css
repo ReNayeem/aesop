@@ -65,6 +65,7 @@
 
 #navbar {
     background-color: #fffef2 !important;
+    border-bottom: 1px solid #d6d5cc;
 }
 
 .nav-link {

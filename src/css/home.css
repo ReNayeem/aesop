@@ -183,7 +183,7 @@
 }
 
 .second-section-2 {
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 
@@ -197,7 +197,7 @@ html {
 
 /* custom scrollbar for other browser start */
 html::-webkit-scrollbar {
-    width: 1vw;
+    width: 10px;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -308,6 +308,11 @@ html::-webkit-scrollbar-track {
 @media only screen and (max-width: 1712px) {
     .third-section-img {
         height: 560px;
+    }
+
+    .third-section {
+        height: auto;
+        padding-bottom: 2rem;
     }
 }
 
@@ -466,6 +471,9 @@ html::-webkit-scrollbar-track {
 
     .second-first-section {
         flex-direction: column;
+        margin-right: 24px;
+        width: 280px;
+        min-width: auto;
     }
 
     .second-first-first-section-1 {

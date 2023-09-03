@@ -15,7 +15,7 @@ function AppNavbar() {
   const pathname = usePathname();
 
   const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(true)
+  const [visible, setVisible] = useState(false)
 
   const handleScroll = () => {
     const currentScrollPos = window.scrollY
