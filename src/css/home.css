@@ -1,0 +1,75 @@
+.banner-img {
+    background-image: url('https://www.aesop.com/u1nb1km7t5q7/AGQGWYrTapcQI1NrPvsYU/11e99769c1767531dd3c12b6fce85f37/Aesop_Bar_Soaps_2023_Web_Homepage_2_Primary_Full_Bleed_Desktop_2880x1044px.jpg');
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    width: 100%;
+    height: 570px;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner-logo {
+    fill: #fffef0;
+    margin-left: 2.7rem;
+    margin-top: 7.5rem;
+}
+
+.banner-details {
+    max-width: 560px;
+    margin-top: 8rem;
+    margin-left: 10rem;
+    color: #fffef0;
+}
+
+.banner-details p {
+    font-size: .875rem;
+    line-height: 1.7;
+}
+
+.banner-details h2 {
+    font-size: 1.875rem;
+    line-height: 1.33;
+    font-weight: 400;
+}
+
+.banner-details h3 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.banner-details button {
+    background-color: transparent;
+    width: 300px;
+    height: 60px;
+    text-align: left;
+    font-size: .875rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.4;
+    color: #fffef0;
+    padding: 19px 23px;
+    transition: all .2s cubic-bezier(.645, .045, .355, 1);
+    border: 1px solid #fffef0;
+    margin-top: 2rem;
+}
+
+.banner-details button svg {
+    fill: #fffef0;
+    transition: all .2s cubic-bezier(.645, .045, .355, 1);
+}
+
+.banner-details button:hover,
+.banner-details button:hover svg {
+    background-color: #fffef0;
+    color: #333;
+    fill: #333;
+    transition: all .2s cubic-bezier(.645, .045, .355, 1);
+}
